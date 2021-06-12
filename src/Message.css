@@ -1,0 +1,30 @@
+.message{
+    display: flex;
+    margin-top: 8px;
+}
+
+.left_msg{
+    display: flex;
+    margin-left: 30%;
+}
+
+
+.message>img{
+    height: 50px;
+    width: 50;
+    border-radius: 999px;
+    object-fit: contain;
+}
+.left_msg>img{
+    height: 35px;
+    width: 35px;
+}
+.message__timestamp{
+    color: gray;
+    font-weight: 300;
+    font-size: 13px;
+    
+}
+.message__info{
+    padding-left: 10px;
+}
